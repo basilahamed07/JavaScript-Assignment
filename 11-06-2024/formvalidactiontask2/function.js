@@ -4,7 +4,7 @@ function checkvalid(){
     let secondname = document.myform.secondname.value;  
     let password = document.myform.password.value;
     let expression = "^[a-zA-Z]{3,15}$";
-    let passwoedexpression = "^[a-zA-Z@0-9]{3,15}$";
+    let passwoedexpression = "^[a-zA-Z@!@#$%^&*()0-9]{8,20}$";
     let gender_check = document.myform.gender;
   
     let checking = document.myform.subject;

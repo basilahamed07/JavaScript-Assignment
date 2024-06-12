@@ -96,7 +96,7 @@
                 document.getElementById("spanp").innerHTML = "please Enter the password"
                 document.getElementById("spanp").style.color = "red"
             }
-            else if (!username.trim().match("^(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&*?]{8,}$")){
+            else if (!username.trim().match("[a-zA-Z@!@#$%^&*()0-9]{8,20}$")){
                 document.getElementById("spanp").innerHTML = "not pass the password validaction"
                 document.getElementById("spanp").style.color = "red"
             }
